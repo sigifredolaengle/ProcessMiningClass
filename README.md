@@ -20,7 +20,7 @@ Then, we will activate the virtual environment named `env_py3.6`. This will acti
 
     source env_py3.6/bin/activate
 
-Now, we will install Jupyter lab in the environment `(env_py3.6):
+Now, we will install Jupyter lab in the environment `(env_py3.6)`:
 
     pip install jupyterlab
 
