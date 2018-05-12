@@ -10,9 +10,9 @@ You can find the just installed Python 3.6 with the command in the local Termina
 
     which python3
   
-Let us suppose, Python 3.6 is installed in /usr/bin/python3. Now, we will create a *virtual environment*, where a set of packages will be installed and executed independently of packages installed in the local system. `virtualenv` is an excellent way to ensure a set of packages for running Jupyter lab and our particular applications.
+Let us suppose, Python 3.6 is installed in `/usr/bin/python3`. Now, we will create a *virtual environment*, where a set of packages will be installed and executed independently of packages installed in the local system. `virtualenv` is an excellent way to ensure a set of packages for running Jupyter lab and your particular applications.
 
-Now, we will create a virtual environment with Python 3.6. This instruction will create a fold with the name `env_py3.6` and will install some basic Pyhton packages. Let us note that `/usr/bin/python3` is the location of Python 3.6 obtained from the instruction `which python`.
+Now, we will create a virtual environment with Python 3.6. This instruction will create a fold with the name `env_py3.6`, where `virtualenv` will install some basic Python packages. Let us note that `/usr/bin/python3` is the location of Python 3.6 obtained from the instruction `which python`. In addition, let note that the folder `env_py3.6` is not necessarily the folder of your data! It is just a folder with right packages for execution of Jupyter lab correctly.
 
     virtualenv --python=/usr/bin/python3 env_py3.6
 
@@ -44,7 +44,7 @@ Finally, run jupyter lab in (env_py3.6)
 
 Then, the local web page of jupyter lab will appear automatically (after some seconds) on your web browser, for example: http://localhost:8889/lab
 
-For log out from the Jupyter lab running, press `Ctrl-C`, the log out from the environment `env_py3.6`
+For log out from the Jupyter lab running, press `Ctrl-C` in the Terminal, then log out from the environment `env_py3.6` with the instruction
 
     deactivate
 
