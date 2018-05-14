@@ -1,5 +1,5 @@
 # ProcessMiningClass
-Implementation of examples from D.R. Ferreira, A Primer on Process Mining: Practical Skills with Python and Graphviz, Springer, 2017
+Implementation of examples from D.R. Ferreira, *A Primer on Process Mining: Practical Skills with Python and Graphviz*, Springer, 2017
 
 ## Jupyter lab installation
 We are going to install Jupyter lab under Python 3.6 locally.
@@ -12,7 +12,7 @@ You can find the just installed Python 3.6 with the following command in the loc
   
 Let us suppose, Python 3.6 is installed in `/usr/bin/python3`. Now, we will create a *virtual environment*, where a set of packages will be installed and executed independently of packages installed in the local system. `virtualenv` is an excellent way to ensure running Jupyter lab and your particular applications correctly.
 
-Now, we will create a virtual environment with Python 3.6. The following instruction will create a fold with the name `env_py3.6`, where `virtualenv` will install some basic Python packages. Let us note that `/usr/bin/python3` is the location of Python 3.6 obtained from the instruction `which python`. In addition, let us note that the folder `env_py3.6` is not necessarily the folder of your data! It is just a folder with right packages for execution of Jupyter lab.
+Now, we will create a virtual environment with Python 3.6. The following instruction will create a fold with the name `env_py3.6`, where `virtualenv` will install some basic Python packages. If you do not have installed `virtualenv`, then installed it by following instructions in [virvtualenv installation](https://virtualenv.pypa.io/en/stable/installation/). Let us note that `/usr/bin/python3` is the location of Python 3.6 obtained from the instruction `which python`. In addition, let us note that the folder `env_py3.6` is not necessarily the folder of your data! It is just a folder with right packages for execution of Jupyter lab.
 
     virtualenv --python=/usr/bin/python3 env_py3.6
 
