@@ -50,5 +50,6 @@ For log out from the Jupyter lab running, press `Ctrl-C` in the Terminal, then l
 
 Summarizing
 
-![](http://www.reactiongifs.us/wp-content/uploads/2013/10/nuh_uh_conan_obrien.gif)
+![](https://github.com/sigifredolaengle/ProcessMiningClass/blob/master/ezgif.com-video-to-gif.gif)
+
 
