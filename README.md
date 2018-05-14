@@ -51,5 +51,3 @@ For log out from the Jupyter lab running, press `Ctrl-C` in the Terminal, then l
 Summarizing
 
 ![](https://github.com/sigifredolaengle/ProcessMiningClass/blob/master/ezgif.com-video-to-gif.gif)
-
-
