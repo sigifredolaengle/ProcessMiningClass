@@ -20,6 +20,8 @@ Then, we will activate the virtual environment named `env_py3.6`. This will acti
 
     (env_py3.6) $ source env_py3.6/bin/activate
 
+### First way for installing
+
 Now, we will install Jupyter lab in the environment `(env_py3.6)`:
 
     (env_py3.6) $ pip install jupyterlab
@@ -28,26 +30,38 @@ It's done! Optionally, you can install more packages, for instance
 
     (env_py3.6) $ pip install matplotlib
     (env_py3.6) $ pip install graphviz
+    (env_py3.6) $ pip install networkx
 
 If you want, you can generate output suitable for requirements file with all installed packages
 
     (env_py3.6) $ pip freeze
 
-Optionally, generate a requirements file and then install it in another environment
+Optionally, generate a requirements file and then install it in another environment:
 
     (env_py3.6) $ pip freeze > requirements.txt
-    (env_py3.6) $ pip install -r requirements.txt
 
-Finally, run jupyter lab in the environment `(env_py3.6)`
+### Second way for installing
 
-    (env_py3.6) $ jupyter lab
+The second form for installing is simpler and it uses `requirements.txt`:
+
+	(env_py3.6) $ pip install -r requirements.txt
+
+### Running Jupyter lab
+
+Finally, run jupyter lab in the environment `(env_py3.6)`:
+
+	(env_py3.6) $ jupyter lab
 
 Then, the local web page of jupyter lab will appear automatically (after some seconds) on your web browser, for example: http://localhost:8889/lab
 
-For log out from the Jupyter lab running, press `Ctrl-C` in the Terminal, then log out from the environment `env_py3.6` with the instruction
+For log out from the Jupyter lab running, press `Ctrl-C` in the Terminal, then log out from the environment `env_py3.6` with the following instruction:
 
     (env_py3.6) $ deactivate
 
-Summarizing
+For erasing the environment:
+
+	$ rm -rf env_py3.6
+	
+### Summarizing:
 
 ![](https://github.com/sigifredolaengle/ProcessMiningClass/blob/master/ezgif.com-video-to-gif.gif)
