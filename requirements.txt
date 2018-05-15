@@ -1,3 +1,4 @@
+scipy
 jupyterlab
 graphviz==0.8.3
 matplotlib==2.2.2

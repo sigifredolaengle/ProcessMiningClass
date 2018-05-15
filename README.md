@@ -31,6 +31,7 @@ It's done! Optionally, you can install more packages, for instance
     (env_py3.6) $ pip install matplotlib
     (env_py3.6) $ pip install graphviz
     (env_py3.6) $ pip install networkx
+    (env_py3.6) $ pip install scipy
 
 If you want, you can generate output suitable for requirements file with all installed packages
 
