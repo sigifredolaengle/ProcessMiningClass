@@ -62,6 +62,6 @@ For erasing the environment:
 
 	$ rm -rf env_py3.6
 	
-### Summarizing:
+### Summarizing
 
-![](https://github.com/sigifredolaengle/ProcessMiningClass/blob/master/ezgif.com-video-to-gif.gif)
+The [video](https://www.dropbox.com/s/pbzwvwldiyveq8p/install_jupyterlab.mov?dl=0) contains an animated summary of the installation procedure of Jupyter lab.
