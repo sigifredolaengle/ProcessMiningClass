@@ -20,7 +20,7 @@ Then, we will activate the virtual environment named `env_py3.6`. This will acti
 
     (env_py3.6) $ source env_py3.6/bin/activate
 
-### First way for installing
+### Stet-by-step installation
 
 Now, we will install Jupyter lab in the environment `(env_py3.6)`:
 
@@ -41,9 +41,9 @@ Optionally, generate a requirements file and then install it in another environm
 
     (env_py3.6) $ pip freeze > requirements.txt
 
-### Second way for installing
+### Installation with `requirements.txt`
 
-The second form for installing is simpler and it uses `requirements.txt`:
+The second form for installing is simpler and it uses `requirements.txt`, which you can download from this GitHub:
 
 	(env_py3.6) $ pip install -r requirements.txt
 
@@ -62,6 +62,16 @@ For log out from the Jupyter lab running, press `Ctrl-C` in the Terminal, then l
 For erasing the environment:
 
 	$ rm -rf env_py3.6
+	
+### Re-running
+
+Simply, in your Terminal write:
+
+	$ source /Users/laengle-uchile/env_py3.6/bin/activate
+
+Where `/Users/laengle-uchile/env_py3.6/` is the global location of the virtual environment `env_py3.6`. Then write:
+
+	(env_py3.6) $ jupyter lab
 	
 ### Summarizing
 
